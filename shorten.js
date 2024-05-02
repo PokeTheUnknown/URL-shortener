@@ -14,6 +14,6 @@ function shortenURL(originalURL, length = 6) {
   return shortenedURL;
 }
 
-const originalURL = 'https://www.youtube.com/watch?v=RroDdybvu5s';
+const originalURL = 'YOUT LONG URL';
 const shortenedURL = shortenURL(originalURL);
 console.log(`Shortened URL: ${shortenedURL}`);
